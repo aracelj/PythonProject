@@ -4,6 +4,7 @@
 
 print ("Hello World \nThis program was made by Araceli Jakobsson")
 
+#end Uppgift1
 
 """
 Uppgift #2 
@@ -24,6 +25,7 @@ print ("Det blir" ,(kontant - biljet),  "kronor över.")
 change = (kontant - biljet )/ 2
 print("Varje person får", change,"kronor")
 
+#end Uppgift2
 
 
 #Uppgift #3
@@ -51,6 +53,8 @@ rebates_cost = int(jacket_cost*(rebates_input/100))            #calculates for t
 final_cost_percentage = int(jacket_cost - rebates_cost)        #calculates the final cost after the applied rebates
 print (rebates_input, "% rebates: ", rebates_cost, "kronor")
 print ("Total cost of the jacket after the rebates is: ", final_cost_percentage, "kronor.")
+
+#end Uppgift3
 
 
 
@@ -95,3 +99,5 @@ for i in range (7):
   next_day = date.today() + timedelta(days=i+1) # fetching the next day dates
   print (next_day)
   i +=1
+
+#end Uppgift4
