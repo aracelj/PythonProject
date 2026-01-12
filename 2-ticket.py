@@ -1,6 +1,8 @@
-# Räkna ut hur mycket som blir kvar, efter att man betalat en biljett
-# Pengarna som blir över ska dela med en vän
-""" ursprung kod och ändrar till rätt koder
+"""
+By Araceli Jakobsson
+Räkna ut hur mycket som blir kvar, efter att man betalat en biljett
+Pengarna som blir över ska dela med en vän
+ursprung kod och ändrar till rätt koder
      x = 100  # biljettpris
      y = 200  # pengar på fickan
      print("Det blir " + (y - x) " kronor över.")

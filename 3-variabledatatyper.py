@@ -1,4 +1,6 @@
-# The program will do the following calculations
+#By Araceli Jakobsson
+# The program will do the following calculations of time in hours, minutes
+# Total cost of the jacket after the rebates
 
 #1a ask for a whole number
 tal1 = int(input("Enter a whole number: "))

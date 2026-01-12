@@ -1,6 +1,9 @@
-#1a Output the time travelled from Stockholm to Gothenburg
-#   User enters the speed in km/h
+# By Araceli Jakobsson
+# Outputs the time travelled from Stockholm to Gothenburg in hours, minutes
+# Outputs the hypotenuse of a triangle
+# Outputs the date of the day and the next 7 days.
 
+#1a outputs the time in hour
 speed = int(input ("Enter driving speed(km/h): "))
 distance = 470
 time_hr = distance / speed
@@ -28,11 +31,9 @@ from datetime import date
 print("\nToday's date: :", date.today())
 
 
-
 #3b Outputs the date of the next 7 days
 from datetime import date, timedelta
 print("\nThe dates for the next 7 days:")
-
 i = 1
 for i in range (7):
   next_day = date.today() + timedelta(days=i+1) # fetching the next day dates
