@@ -68,7 +68,7 @@ speed = int(input ("\nEnter driving speed(km/h): "))
 distance = 470
 time_hr = distance / speed
 print ("Distance from Stockholm to Gothenburg (km/h): ", distance)
-print ("Time to travel from Stockholm to Gothenburg (hours): ", int(time_hr)) #take only the whole number of the time
+print ("Time to travel from Stockholm to Gothenburg (hours): ", round(time_hr,2)) #take only the whole number of the time
 
 #1b outputs the time in minutes
 time_min = time_hr * 60
