@@ -4,17 +4,17 @@
 speed = int(input ("Enter driving speed(km/h): "))
 distance = 470
 time_hr = distance / speed
-print ("Distance from Stockholm to Gothenburg(km/h): ", distance)
-print ("Time to travel from Stockholm to Gothenburg(hour): ", int(time_hr))
+print ("Distance from Stockholm to Gothenburg (km/h): ", distance)
+print ("Time to travel from Stockholm to Gothenburg (hours): ", int(time_hr)) #take only the whole number of the time
 
 #1b outputs the time in minutes
 time_min = time_hr * 60
-print ("Time to travel from Stockholm to Gothenburg(minutes): ", int(time_min))
+print ("Time to travel from Stockholm to Gothenburg", round(time_hr,2), "hours converted in (minutes): ", int(time_min))
 
 #1c output in hour and minutes
-temp_hour = time_min // 60
-temp_min = time_min % 60
-print ("Time to travel from Stockholm to Gothenburg:", int(temp_hour)," hour", int(temp_min), " minutes")
+temp_hour = time_min // 60  #take the quotient as the no. of hours
+temp_min = time_min % 60    #take the remainder as the no. of minutes
+print ("Time to travel from Stockholm to Gothenburg:", int(temp_hour)," hour(s)", int(temp_min), " minute(s)")
 
 #2 Outputs the hypotenuse of a triangle.
 import math

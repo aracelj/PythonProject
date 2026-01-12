@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-ticket.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-ticket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-variabledatatyper.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-variabledatatyper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-ovningar.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-ovningar.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,19 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.3variabledatatyper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ticketchange.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1-main.executor": "Run",
+    "Python.2-ticket.executor": "Run",
+    "Python.3-variabledatatyper.executor": "Run",
+    "Python.3variabledatatyper.executor": "Run",
+    "Python.4-ovningar.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.ticketchange.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -116,23 +125,36 @@
       <option name="project" value="LOCAL" />
       <updated>1768235993580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768244324760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768244324760</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768244454293</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768244454293</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768244535903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768244535903</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comment" />
     <MESSAGE value="Comment." />
     <option name="LAST_COMMIT_MESSAGE" value="Comment." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1-main.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
