@@ -66,9 +66,9 @@ print ("Total cost of the jacket after the rebates is: ", final_cost_percentage,
 #1a outputs the time in hour
 speed = int(input ("\nEnter driving speed(km/h): "))
 distance = 470
-time_hr = distance / speed
+time_hr = distance / speed       #calculates the time in hour
 print ("Distance from Stockholm to Gothenburg (km/h): ", distance)
-print ("Time to travel from Stockholm to Gothenburg (hours): ", round(time_hr,2)) #take only the whole number of the time
+print ("Time to travel from Stockholm to Gothenburg (hours): ", round(time_hr,2))
 
 #1b outputs the time in minutes
 time_min = time_hr * 60
