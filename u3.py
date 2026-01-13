@@ -1,4 +1,4 @@
-#Uppgift #3
+#Uppgift #3  by Araceli Jakobsson
 # The program will do the following calculations of time in hours, minutes
 # Total cost of the jacket after the rebates
 

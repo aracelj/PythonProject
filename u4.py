@@ -1,4 +1,4 @@
-# Uppgift #4
+# Uppgift #4  by Araceli Jakobsson
 # Outputs the time travelled from Stockholm to Gothenburg in hours, minutes
 # Outputs the hypotenuse of a triangle
 # Outputs the date of the day and the next 7 days.
