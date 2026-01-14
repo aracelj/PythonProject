@@ -23,7 +23,7 @@ print ("Time to travel from Stockholm to Gothenburg:", int(temp_hour)," hour(s)"
 import math
 base = int(input("\nEnter measurement of the base of a triangle: "))
 altitude  = int(input("Enter measurement of altitude of a triangle: "))
-hypotenuse = math.sqrt(base**2 + altitude**2)  # computes the hypotenuse using pythagorean theorem c² = a² + b²
+hypotenuse = math.sqrt(base**2 + altitude**2)  # computes the hypotenuse using the pythagorean theorem c² = a² + b²
 print ("The hypotenuse of a triangle:", int(hypotenuse))
 
 #3a Outputs the date of the day
