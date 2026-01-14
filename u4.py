@@ -1,7 +1,7 @@
 # Uppgift #4  by Araceli Jakobsson
 # Outputs the time travelled from Stockholm to Gothenburg in hours, minutes
-# Outputs the hypotenuse of a triangle
-# Outputs the date of the day and the next 7 days.
+# Outputs the hypotenuse of a right triangle using the pythagorean theorem
+# Outputs the date of the day and for the next 7 days.
 
 #1a outputs the time in hours
 speed = int(input ("\nEnter driving speed(km/h): "))
@@ -23,7 +23,7 @@ print ("Time to travel from Stockholm to Gothenburg:", int(temp_hour)," hour(s)"
 import math
 base = int(input("\nEnter measurement of the base of a triangle: "))
 altitude  = int(input("Enter measurement of altitude of a triangle: "))
-hypotenuse = math.sqrt(base**2 + altitude**2)  # computing for the hypotenuse
+hypotenuse = math.sqrt(base**2 + altitude**2)  # computes the hypotenuse using pythagorean theorem c² = a² + b²
 print ("The hypotenuse of a triangle:", int(hypotenuse))
 
 #3a Outputs the date of the day
