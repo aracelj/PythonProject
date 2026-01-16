@@ -10,10 +10,10 @@ ursprung kod och ändrar till rätt koder
      print("Varje person får " + z)
 """
 
-biljet = 100  # biljettpris
+biljetpris = 100  # biljettpris
 kontant = 200  # pengar på fickan
-print ("\nBiljet: 100 \nKontant:200 kronor")
-print ("Det blir" ,(kontant - biljet),  "kronor över.")
-change = (kontant - biljet )/ 2
-print("Varje person får", change,"kronor")
+print ("\nBiljetpris:", biljetpris,"kronor \nKontant:", kontant,"kronor")
+print ("Det blir" ,(kontant - biljetpris),  "kronor över.")
+change = (kontant - biljetpris)/ 2
+print("Varje person får", int(change),"kronor.")
 
