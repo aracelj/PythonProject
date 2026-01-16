@@ -1,7 +1,7 @@
 # Uppgift #4  by Araceli Jakobsson
-# Outputs the time travelled from Stockholm to Gothenburg in hours, minutes
-# Outputs the hypotenuse of a right triangle using the pythagorean theorem
-# Outputs the date of the day and for the next 7 days.
+# 1a Outputs the time in hours
+# 1b Outputs the time in minutes
+# 1c Outputs the time in hour and minutes
 
 #1a outputs the time in hours
 speed = int(input ("\nEnter driving speed(km/h): "))

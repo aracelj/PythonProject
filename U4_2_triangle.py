@@ -1,5 +1,5 @@
 # Uppgift #4  by Araceli Jakobsson
-#2 Outputs the hypotenuse of a triangle.
+#2 Outputs the hypotenuse of a triangle using pythagorean theorem c² = a² + b²
 
 import math
 base = float(input("\nEnter measurement of the base of a triangle: "))

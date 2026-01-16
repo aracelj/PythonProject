@@ -2,7 +2,8 @@
 # Hello World
 # This program was made by Araceli Jakobsson
 
-print ("Hello World \nThis program was made by Araceli Jakobsson")
+name = str("Araceli Jakobsson")
+print ("Hello World \nThis program was made by "+ name)
 
 
 

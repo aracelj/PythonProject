@@ -7,4 +7,4 @@ tal1 = int(input("\nEnter a whole number: "))
 #1b ask for another whole number and sum it up.
 tal2 = int(input("Enter another whole number:"))
 Total = tal1 + tal2
-print ("Total for the two numbers: ",Total)
+print ("Total of the two numbers: ",Total)
