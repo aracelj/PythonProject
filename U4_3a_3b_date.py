@@ -12,6 +12,6 @@ from datetime import date, timedelta
 print("\nThe dates for the next 7 days:")
 i = 1
 for i in range (7):
-  next_day = date.today() + timedelta(days=i+1)    # fetching the next day dates
+  next_day = date.today() + timedelta(days=i+1)    # fetching the next 7 day dates
   print (next_day)
   i +=1
