@@ -7,9 +7,9 @@
 # 2a Calculates total cost to pay for the jacket which cost 2000 kronor with 75% discount
 jacket_cost = 2000
 discount_cost1 = 75
-final_cost = int(jacket_cost -(jacket_cost*(discount_cost1 )/100))  #calculates the final cost after the fixed discount
+final_cost1 = int(jacket_cost -(jacket_cost*(discount_cost1 )/100))  #calculates the final cost after the fixed discount
 print ("\nJacket's original price:",jacket_cost,"kronor \nDiscount:",discount_cost1 ," kronor")
-print ("Final jacket's cost after the", discount_cost1, "% discount is:", final_cost, "kronor.")
+print ("Final jacket's cost after the", discount_cost1, "% discount is:", final_cost1, "kronor.")
 
 #2b Enter the discount percentage and give the total cost after the discount
 discount_input = int(input("\nEnter different discount percentage: "))
