@@ -2,8 +2,9 @@
 # Hello World
 # This program was made by Araceli Jakobsson
 
-name = str("Araceli Jakobsson")
-print ("Hello World \nThis program was made by "+ name)
+msg = "Hello World"
+name = "Araceli Jakobsson"
+print (msg, "\n"+ name)
 
 
 

@@ -1,5 +1,5 @@
-#Uppgift #3  by Araceli Jakobsson
-# The program will do the following calculations of two numbers input
+# Uppgift #3  by Araceli Jakobsson
+# The program will do the calculations of two numbers
 
 #1a ask for a whole number
 tal1 = int(input("\nEnter a whole number: "))

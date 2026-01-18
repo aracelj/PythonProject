@@ -14,6 +14,6 @@ biljetpris = 100  # biljettpris
 kontant = 200  # pengar på fickan
 print ("\nBiljetpris:", biljetpris,"kronor \nKontant:", kontant,"kronor")
 print ("Det blir" ,(kontant - biljetpris),  "kronor över.")
-change = (kontant - biljetpris)/ 2
-print("Varje person får", int(change),"kronor.")
+växel = (kontant - biljetpris)/ 2
+print("Varje person får", int(växel),"kronor.")
 

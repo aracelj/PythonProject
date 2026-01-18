@@ -4,7 +4,7 @@
 
 #3a Outputs the date of the day
 from datetime import date
-print("\nToday's date: :", date.today())
+print("Today's date: :", date.today())
 
 
 #3b Outputs the date of the next 7 days

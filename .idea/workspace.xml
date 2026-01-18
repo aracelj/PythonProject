@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U1_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/U1_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U2_biljet.py" beforeDir="false" afterPath="$PROJECT_DIR$/U2_biljet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U3_1a_b_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/U3_1a_b_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U3_2a_2b_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/U3_2a_2b_cost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U4_1a_1b_speed.py" beforeDir="false" afterPath="$PROJECT_DIR$/U4_1a_1b_speed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U4_2_triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/U4_2_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U4_3a_3b_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/U4_3a_3b_date.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +57,7 @@
     "Python.3-variabledatatyper.executor": "Run",
     "Python.3variabledatatyper.executor": "Run",
     "Python.4-ovningar.executor": "Run",
+    "Python.U1_name.executor": "Run",
     "Python.U2_biljet.executor": "Run",
     "Python.U3_1a_b_number.executor": "Run",
     "Python.U3_1a_number.executor": "Run",
@@ -325,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768579597372</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768580819164</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1768580819164</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
