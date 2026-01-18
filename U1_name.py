@@ -2,9 +2,9 @@
 # Hello World
 # This program was made by Araceli Jakobsson
 
-msg = "Hello World"
+message = "Hello World"
 name = "Araceli Jakobsson"
-print (msg, "\n"+ name)
+print (message, "\n"+ name)
 
 
 
