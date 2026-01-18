@@ -4,7 +4,7 @@
 
 message = "Hello World"
 name = "Araceli Jakobsson"
-print (message, "\nThis message was by "+ name)
+print (message, "\nThis message was made by "+ name)
 
 
 
