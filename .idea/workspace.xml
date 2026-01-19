@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
+      <change afterPath="$PROJECT_DIR$/Veckouppgift2/V2U1_Price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift2/V2U3_Sports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift2/V2U4_Temperature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +62,10 @@
     "Python.U4_2_triangle.executor": "Run",
     "Python.U4_2a_triangle.executor": "Run",
     "Python.U4_3a_3b_date.executor": "Run",
+    "Python.V2U1_Price.executor": "Run",
+    "Python.V2U2_Balder.executor": "Run",
+    "Python.V2U3_Sports.executor": "Run",
+    "Python.V2U4_Temperature.executor": "Run",
     "Python.main.executor": "Run",
     "Python.ticketchange.executor": "Run",
     "Python.u2.executor": "Run",
@@ -71,6 +80,7 @@
     "Python.u4_3b_date.executor": "Run",
     "Python.u4_speed.executor": "Run",
     "Python.u4_speed_triangle.executor": "Run",
+    "Python.v2U2_Balder.executor": "Run",
     "Python.veckouppgift1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -342,12 +352,47 @@
       <option name="project" value="LOCAL" />
       <updated>1768715258733</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768723407308</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1768723407308</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768723482880</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1768723482880</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768723517843</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1768723517843</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comment" />
     <MESSAGE value="Comment." />
     <option name="LAST_COMMIT_MESSAGE" value="Comment." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Veckouppgift2/V2U4_Temperature.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
