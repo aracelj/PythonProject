@@ -14,7 +14,7 @@ total = number_1 + number_2 + number_3
 print("Sum of all 3 numbers: ", round(total,2))
 
 # 2 Determines the highest among the 3 inputted number without using max function
-print("============================= Maximum Number ============================")
+print("\n============================= Maximum Number ============================")
 max_number = number_1
 middle_number = number_1
 counter_same = 0
@@ -59,7 +59,7 @@ print("The maximum number is", max_number)
 
 
 # 3 Give the counts of all of the numbers that are the same
-print("============================= Numbers Alike =============================")
+print("\n============================= Numbers Alike =============================")
 print("Count of numbers alike: ", counter_same)
 
 
@@ -74,9 +74,10 @@ elif counter_same == 3:
 else:
     alike_2 = "no"
     alike_3 = "no"
-print("================================ 5.4 Table ===============================")
+
+print("\n================================ 5.4 Table ===============================")
 print("__________________________________________________________________________")
 print("| 1st No. | 2nd No. | 3rd No.| Maximum | 2 Alike? | 3 Alike? | Middle No. |")
-print("  " , number_1,"    ", number_2,"     ", number_3, "    ", max_number,"    ", alike_2,"       ", alike_3,"       ", middle_number,"    ")
+print("  " , number_1,"    ", number_2,"     ", number_3, "     ", max_number,"    ", alike_2,"       ", alike_3,"       ", middle_number,"    ")
 print("|_________________________________________________________________________|")
 
