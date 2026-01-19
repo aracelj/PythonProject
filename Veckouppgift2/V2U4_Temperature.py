@@ -1,4 +1,4 @@
-# Uppgift3 Balder by Araceli Jakobsson
+# Uppgift4 Temperature converter by Araceli Jakobsson
 # Version 1 Converts the temperature in celsius to fahrenheit
 # Version 2 Ask user whether to use celsius or fahrenheit and converts respectively
 # Version 3 If the converted temperature is:
@@ -18,22 +18,27 @@ print("It will be", round(conversion_celsius_to_fahrenheit,3),"degrees Fahrenhei
 # Version 2 Ask user whether to use celsius or fahrenheit and converts respectively
 input_temperature = 0
 input_celsius = 0
-print("======= Version 2 Converts temperature from celsius to fahrenheit or vice versa =======")
-input_temperature = int(input("Select conversion from Celsius to Fahnrenheit (1) or Fahrenheit to Celsius (2): "))
+print("\n======= Version 2 Converts temperature from celsius to fahrenheit or vice versa =======")
+input_temperature = int(input("Celsius to Fahnrenheit (1) or Fahrenheit to Celsius (2), Enter 1 or 2: "))
 if input_temperature == 1:
       input_celsius = float(input("Enter temperature in degrees celsius: "))
       conversion_to_fahrenheit = (input_celsius * 1.8) + 32
       final_conversion = conversion_to_fahrenheit
       input_temperature = "Fahrenheit"
+      print("It will be", round(final_conversion, 3), "degrees", input_temperature, ".")
 
 elif input_temperature == 2:
       input_fahrenheit = float(input("Enter temperature in degrees fahrenheit: "))
       conversion_to_celsius = (input_fahrenheit - 32) / 1.8
       final_conversion = conversion_to_celsius
       input_temperature = "Celsius"
-      ".")
-elif input_temperature != 1 or input_fahrenheit != 2:
-    print("Wrong selection, it should be 1 or 2.")
+      print("It will be", round(final_conversion, 3), "degrees", input_temperature, ".")
 
-print("It will be", round(final_conversion, 3), "degrees", input_temperature)
+else:
+      print("Wrong selection, it should be 1 or 2.")
+
+
+
+
+
 
