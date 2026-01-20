@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift2/V2U5_MiniCal copy.com.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift2/V2U5_MiniCal copy.com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift2/V2U3_Sports.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift2/V2U3_Sports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift2/V2U4_Temperature.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift2/V2U4_Temperature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -487,7 +488,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768896313833</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768901053797</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1768901053797</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1768902989185</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1768902989185</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

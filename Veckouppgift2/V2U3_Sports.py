@@ -10,10 +10,11 @@ goal_difference = 0
 print("======== Version 1 Determines which team wins ========")
 goal_tottenham = int(input("Enter goal made for Tottenham: "))
 goal_liverpool = int(input("Enter goal made for Liverpool: "))
-if goal_tottenham > goal_liverpool:
+if goal_tottenham > goal_liverpool:                                   # checks if Tottenham wins over Liverpool
     print("Tottenham wins!")
     winning_team = "Tottenham"
     goal_difference = goal_tottenham - goal_liverpool
+    if goal_tottenham > goal_liverpool:                               # checks if Liverpool wins over Tottenham
 elif goal_tottenham < goal_liverpool:
     print("Liverpool wins!")
     winning_team = "Liverpool"
@@ -21,7 +22,7 @@ elif goal_tottenham < goal_liverpool:
 
 
 #Version 2 Determines if it is a tie
-else:
+else:                                                                 # checks if both team is a tie
     print("\n======== Version 2 Display if its a tie ========")
     print("It is a tie!")
 
