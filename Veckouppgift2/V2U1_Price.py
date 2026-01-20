@@ -7,7 +7,7 @@ Origianl code:
         level2 = 300
         discount = 0
 
-        price = input("Välkommen, köp något dyrt? Ange ett pris: ")
+        price = input("Välkommen, köp något dyrt? ")
         price = float(price)
         if price > level1:
              print("Gratis! Du har avancerat till nivå 1 och får 10% rabatt.")
@@ -25,7 +25,7 @@ level1 = 100
 level2 = 300
 discount = 0
 
-price = input("Välkommen, köp något dyrt: ")
+price = input("Välkommen, köp något dyrt: Ange ett pris: ")
 price = float(price)
 if price > level1 and price <300:                                      #calculates for 10% discount if over 100 but below 300
      print("Gratis! Du har avancerat till nivå 1 och får 10% rabatt.")

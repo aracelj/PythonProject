@@ -117,6 +117,6 @@ print("Count of numbers alike: ", counter_same)
 print("\n================================ 5.4 Table ===============================")
 print("__________________________________________________________________________")
 print("| 1st No. | 2nd No. | 3rd No.| Maximum | 2 Alike? | 3 Alike? | Middle No. |")
-print(" " , number_1,"     ", number_2,"     ", number_3, "     ", max_number,"    ", alike_2,"      ", alike_3,"       ", middle_number,"    ")
+print(" " , number_1,"     ", number_2,"     ", number_3, "     ", max_number,"    ", alike_2,"      ", alike_3,"        ", middle_number,"    ")
 print("|_________________________________________________________________________|")
 
