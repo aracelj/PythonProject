@@ -74,13 +74,29 @@ elif number_3 < number_1 and number_3 < number_2:        #checks if number_3 is 
         max_number = number_1
         middle_number = number_2
 
-elif number_1 == number_2 and number_1 == number_3:      #checks if all the 3 numbers are equal
+elif number_1 == number_2 and number_1 == number_3:        #checks if all the 3 numbers are equal
     max_number = number_1
     counter_same += 3
     alike_2 = "yes"
     alike_3 = "yes"
     middle_number = number_1
-else:                                                    #if all above conditions are false then it takes that it has two numbers alike
+
+elif number_1 == number_2 and number_1 < number_3:         #checks for 2 numbers 1 & 2 are alike and determines whether the other number is the max number
+    max_number = number_3
+    counter_same += 2
+    alike_2 = "yes"
+    alike_3 = "no"
+    middle_number = "none"
+
+elif number_2 == number_3 and number_2 < number_1:         #checks for 2 numbers 2 & 3 are alike and determines whether the other number is the max number
+    max_number = number_1
+    counter_same += 2
+    alike_2 = "yes"
+    alike_3 = "no"
+    middle_number = "none"
+
+elif number_1 == number_3 and number_1 < number_2:         #checks for 2 numbers 1 & 3 are alike and determines whether the other number is the max number
+    max_number = number_2
     counter_same += 2
     alike_2 = "yes"
     alike_3 = "no"
@@ -95,18 +111,10 @@ print("Count of numbers alike: ", counter_same)
 
 
 # 4 Displays the middle number only if all three numbers are different or all are the same numbers in a table format
-print("\n================================== 5.4 Table ===================================")
+print("\n=================================== 5.4 Table ===================================")
 print(" ________________________________________________________________________________")
 print("| 1st No. | 2nd No. | 3rd No. |  Maximum  |  2 Alike?  |  3 Alike?  | Middle No. |")
 row = "|" + "  " + str(number_1) + "      " + str(number_2) + "       " + str(number_3) + "        " + str(max_number) + "        " + alike_2 + "           " + alike_3 + "          " + str(middle_number)
 row = row.ljust(81) + "|"                                                              #prints "|" on a fixed column position
 print(row)
 print("|________________________________________________________________________________|")
-
-#import shutil
-
-#size = shutil.get_terminal_size()
-#print("Terminal width:", size.columns)
-#print("Terminal height:", size.lines)
-
-#print("\033[2;1H" + "|                                                                                |", end="")
