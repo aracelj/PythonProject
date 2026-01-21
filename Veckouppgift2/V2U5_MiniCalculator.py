@@ -80,7 +80,7 @@ elif number_1 == number_2 and number_1 == number_3:      #checks if all the 3 nu
     alike_2 = "yes"
     alike_3 = "yes"
     middle_number = number_1
-else:                                                    #none of the above conditions are true then it takes that it has two numbers alike
+else:                                                    #if all above conditions are false then it takes that it has two numbers alike
     counter_same += 2
     alike_2 = "yes"
     alike_3 = "no"
