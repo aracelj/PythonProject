@@ -1,7 +1,8 @@
+
 """
 Uppgift1 Price by Araceli Jakobsson
 Correct the code
-Origianl code:
+Original code:
         is_member = False
         level1 = 100
         level2 = 300
@@ -12,7 +13,7 @@ Origianl code:
         if price > level1:
              print("Gratis! Du har avancerat till nivå 1 och får 10% rabatt.")
              discount = discount + 10
-        if price > level2:
+        if price >= level2:
              print("Gratis! Du har avancerat till nivå 2 och får 25% rabatt.")
              discount = discount + 25
 
@@ -20,7 +21,7 @@ Origianl code:
         print("Efter rabatter blir priset.... " + final_price)
 """
 
-is_member = False
+#is_member = True
 level1 = 100
 level2 = 300
 discount = 0
@@ -33,6 +34,7 @@ if price > level1 and price <300:                                      #calculat
 if price >= level2:                                                    #calculates for 25% discount if over or equal to 300
      print("Gratis! Du har avancerat till nivå 2 och får 25% rabatt.")
      discount = discount + 25
-
+#else:
+#     print("Ingen rabatt.")
 final_price = price * (100 - discount) / 100                           #computing the final price after the discount
-print("Efter rabatter blir priset.... " + str(final_price))            #setting the final_price variable to string to correct the error
+print("Efter rabatter blir priset.... " + str(final_price),"Kr")            #setting the final_price variable to string to correct the error

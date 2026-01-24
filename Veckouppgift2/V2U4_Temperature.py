@@ -3,7 +3,7 @@
 # Version 2 Ask user whether to use celsius or fahrenheit and converts respectively
 # Version 3 If the converted temperature is:
 #               below 10°C, display a message "Wear winter jacket."
-#                below 20°C, display a message "Pack a bathing clothes."
+#               at least 20°C, display a message "Pack a bathing clothes."
 # Formulas to use: C = (F - 32) / 1.8
 #                  F = 1.8 * C + 32
 
@@ -13,7 +13,7 @@ input_celsius1 = 0
 conversion_to_fahrenheit = 0
 print("======= Version 1 Converts temperature from celsius to fahrenheit =======")
 input_celsius1 = float(input("Enter temperature in degrees celsius: "))
-conversion_to_fahrenheit = 1.8 * input_celsius1 + 32
+conversion_to_fahrenheit = (1.8 * input_celsius1) + 32
 print("It will be", round(conversion_to_fahrenheit,1),"degrees Fahrenheit.")                      # converts from celsius to fahrenheit
 
 
@@ -21,21 +21,28 @@ print("It will be", round(conversion_to_fahrenheit,1),"degrees Fahrenheit.")    
 input_selection_temperature = 0
 input_celsius2= 0
 print("\n======= Version 2 Converts temperature from celsius to fahrenheit or vice versa =======")
-input_selection_temperature = int(input("Celsius to Fahnrenheit (1) or Fahrenheit to Celsius (2): (Enter 1 or 2) "))
+input_selection_temperature = int(input("Celsius to Fahrenheit (1) or Fahrenheit to Celsius (2): (Enter 1 or 2) "))
 if input_selection_temperature == 1:                                                              # converts from celsius to fahrenheit if selection 1(celsius to fahrenheit)
       input_celsius2 = float(input("Enter temperature in degrees celsius: "))
       conversion_to_fahrenheit = 1.8 * input_celsius2 + 32
       final_conversion = conversion_to_fahrenheit
       input_temperature = "Fahrenheit"
       print("It will be", round(final_conversion,1), "degrees", input_temperature, ".")
+      if input_celsius2 < 10:                                                                     # checks its below 10 degrees celsius
+          print("Bring winter jacket with you!")
+      elif input_celsius2 >= 20:                                                                  # checks its equal or above 20 degrees celsius
+          print("Bring swim wear with you!")
 
-elif input_selection_temperature == 2:                                                           # converts from fahrenheit to celsius if selection 2(fahrenheit to celsius)
+elif input_selection_temperature == 2:                                                            # converts from fahrenheit to celsius if selection 2(fahrenheit to celsius)
       input_fahrenheit = float(input("Enter temperature in degrees fahrenheit: "))
       conversion_to_celsius = (input_fahrenheit - 32) / 1.8
       final_conversion = conversion_to_celsius
       input_temperature = "Celsius"
       print("It will be", round(final_conversion, 2), "degrees", input_temperature, ".")
-
+      if final_conversion < 50:                                                                   # checks its below 50 degrees fahrenheit
+          print("Bring winter jacket with you!")
+      elif final_conversion >= 68:                                                                # checks its below 68 degrees fahrenheit
+          print("Bring swim wear with you!")
 else:                                                                                            # wrong selection between celsius (1) & fahrenheit (2)
       print("Wrong selection, it should be 1 or 2.")
 
