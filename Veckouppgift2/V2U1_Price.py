@@ -34,7 +34,7 @@ if price > level1 and price <300:                                      #calculat
 if price >= level2:                                                    #calculates for 25% discount if over or equal to 300
      print("Gratis! Du har avancerat till nivå 2 och får 25% rabatt.")
      discount = discount + 25
-#else:
-#     print("Ingen rabatt.")
+else:
+    print("Ingen rabatt.")
 final_price = price * (100 - discount) / 100                           #computing the final price after the discount
 print("Efter rabatter blir priset.... " + str(final_price),"Kr")            #setting the final_price variable to string to correct the error
