@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/4_Figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/4_Figures.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +54,7 @@
     "Python.3-variabledatatyper.executor": "Run",
     "Python.3variabledatatyper.executor": "Run",
     "Python.4-ovningar.executor": "Run",
+    "Python.4_Figures.executor": "Run",
     "Python.MiniCal.executor": "Run",
     "Python.U1_name.executor": "Run",
     "Python.U2_biljet.executor": "Run",
@@ -91,6 +95,15 @@
     "last_opened_file_path": "D:/handelsakademin/pythoncodes/PythonProject/Veckouppgift 3a/Veckouppgift 3"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\handelsakademin\pythoncodes\PythonProject\Veckouppgift 3a\Veckouppgift 3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\handelsakademin\pythoncodes\PythonProject\Veckouppgift 3a" />
+      <recent name="D:\handelsakademin\pythoncodes\PythonProject\Veckouppgift 3a\Veckouppgift 3" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="V2U5_MiniCalculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
@@ -526,7 +539,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769594533070</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1769594672261</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1769594672261</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
