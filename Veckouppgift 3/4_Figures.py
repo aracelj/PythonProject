@@ -96,9 +96,9 @@ while  figure != 'q':
             for x in range(1, 9):
                 if x == 1:                                          # prints "." on 1st column
                     s += "."
-                if (x == 2 or x == 7) and (y > 1 and y < 6):        # prints "#" in an |  | form
+                elif (x == 2 or x == 7) and (y == 3 or y == 4):     # prints "#" in an |  | form
                     s += "#"
-                if x >= 2 and x <= 6 and (y == 2 or y == 5):        # prints "#" from 2nd to 6th column on 2nd & 5th row
+                elif (x >= 2 and x <= 7) and (y == 2 or y == 5):    # prints "#" from 2nd to 6th column on 2nd & 5th row
                     s += "#"
                 else:
                     s += "."                                        # prints "." for the rest of the lines
@@ -124,14 +124,16 @@ while  figure != 'q':
                     s += "#"
                 elif (x >= 1 or x <= 8) and y == 4:
                     s += "."
-                elif (x % 2 == 0) and (y >= 5):
+                elif (x % 2 == 0) and (y == 5):
+                    s += "#"
+                elif (x % 2 != 0) and (y == 6):
                     s += "#"
                 else:
                     s += "."
             print(s)
         break
-
-print("No figure selected!")
+    else:
+        print("No figure selected!")
 
 
 
