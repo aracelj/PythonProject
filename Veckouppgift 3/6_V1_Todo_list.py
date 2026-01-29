@@ -8,7 +8,7 @@
 
 print(" ***** Todo List Extravaganza version 1 *****")
 print("Choose an option:")
-print("1 - Display the Todo List ")
+print("1 - Todo List Content ")
 print("2 - Add a new item ")
 print("3 - Exit ")
 
@@ -22,19 +22,19 @@ while True:
             print("Invalid choice! Please enter 1, 2 or 3.")
             continue                                                    #ask again
 
-        if choice == "1":                                               #choice to display the items
+        if choice == "1":                                               #todo list content
             list_counter = len(list)
             if list_counter == 0:                                       #checks if list is empty
                 print("This list is empty!")
             else:
                 print(" Todo List: \n", list)
 
-        elif choice == "2":                                             #choice to add an item
+        elif choice == "2":                                             #add an item
             add_item = input("Enter an item to add: ")
             list.append(add_item)
             print(f"Ok, added {add_item} in the list.", )
 
-        elif choice == "3":                                             #choice to exit the program
+        elif choice == "3":                                             #exit the program
             print("Exit!")
             break
 

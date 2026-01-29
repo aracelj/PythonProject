@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/2_3c_h_Insert_index_remove_length_reverse_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/2_3c_h_Insert_index_remove_length_reverse_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/6_V1_Todo_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/6_V1_Todo_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/6_V2_Todo_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/6_V2_Todo_list.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.1-main.executor": "Run",
     "Python.2-ticket.executor": "Run",
+    "Python.2_3c_h_Insert_index_remove_length_reverse_sort.executor": "Run",
     "Python.3-variabledatatyper.executor": "Run",
     "Python.3variabledatatyper.executor": "Run",
     "Python.4-ovningar.executor": "Run",
@@ -56,6 +62,7 @@
     "Python.5_V1_Random_number.executor": "Run",
     "Python.5_V2_Random_number.executor": "Run",
     "Python.6_V1_Todo_list.executor": "Run",
+    "Python.6_V2_Todo_list.executor": "Run",
     "Python.MiniCal.executor": "Run",
     "Python.U1_name.executor": "Run",
     "Python.U2_biljet.executor": "Run",
@@ -172,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768234908476</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1768234908476</updated>
     </task>
     <task id="LOCAL-00005" summary="Comment.">
       <option name="closed" value="true" />
@@ -565,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769704799357</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1769705853869</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1769705853869</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -9,14 +9,20 @@
 
 print(" ***** Todo List Extravaganza version 2*****")
 print("Choose an option:")
-print("1 - Display the Todo List ")
+print("1 - Todo List Content ")
 print("2 - Add a new item ")
 print("3 - Marked as done ")
-print("4 - Display archive ")
+print("4 - Archive ")
 print("5 - Exit")
 
+counter = 0
+archive_counter = 0
 list = []
 add_item = []
+archive_item = []
+archive_index = []
+archive_list = []
+archive_choice = []
 while True:
     try:
         choice = input("Enter your choice (1/2/3/4/5): ")
@@ -25,25 +31,77 @@ while True:
             print("Invalid choice! Please enter 1, 2, 3, 4 or 5.")
             continue                                                       # ask again
 
-        if choice == "1":
-            list_counter = len(list)
-            if list_counter == 0:
+        if choice == "1":                                                  #content of the list menu
+            counter = len(list)
+            if counter == 0:
                 print("This list is empty!)")
             else:
-                print(" Todo List: \n", list)
+                print(" Todo List: ")
+                for i in range(counter):
+                         archive_index = list[i]
+                         print(f"{i+1} - {archive_index} ")
 
-        elif choice == "2":
+        elif choice == "2":                                                #add an item menu
             add_item = input("Enter an item to add: ")
-            list.append(add_item)
+            add_item = add_item.capitalize()
+            list.append(add_item)                                          #add an item to the Todo list
             print(f"Ok, added {add_item} in the list.", )
-        elif choice == "3"
-            print()
-            done_item = input("Ent")
-            print("Marked as done:", done_item)
+
+        elif choice == "3":                                                #marked as done menu
+            counter = len(list)
+            if counter != 0:
+                print("Which item to mark as done? ")
+                for i in range(counter):
+                         archive_index = list[i]
+                         print(f"{i+1} - {archive_index} ")
+
+                archive_choice = input("Enter the item no. to mark as done: ")
+                archive_counter = int(archive_choice)
+                if (archive_counter > 0) and (archive_counter <= counter): #accepts only within the menu item no.
+                    archive_item = list[archive_counter-1]
+                    if archive_item in list:
+                             archive_list.append(archive_item)             #added to the archive list
+                             list.remove(archive_item)                     #removes the item from Todo list
+                             print(f"Ok, item \"{archive_item}\" is marked as done.")
+                    else:
+                             print("Not Found!")
+                else:
+                    print("Invalid choice! Please enter correct number item.")
+            else:
+                print("Todo List is empty! Nothing to mark as done.")
+
+        elif choice == "4":                                                #archive menu
+            counter = len(archive_list)
+            if counter !=0:
+                    for i in range(counter):
+                        archive_index = archive_list[i]
+                        print(f"{i + 1} - {archive_index} ")
+                    archive_choice = input("Move back the Archive list to Todo List? Yes(y) or No(n): ")
+                    if archive_choice == "Y" or archive_choice == "y":      #accepts only Y or y
+                        move_choice =input("Which item number to move to Todo List?:")
+                        archive_counter = int(move_choice)
+                        if (archive_counter > 0) and (archive_counter <= counter):    #accepts only within the menu item no.
+                            archive_item = archive_list[archive_counter - 1]
+                            if archive_item in archive_list:
+                                list.append(archive_item)                             #added to the Todo list
+                                archive_list.remove(archive_item)                     #removes the item from archive list
+                            else:
+                                print("Not Found!")
+                        else:
+                            print("Invalid choice! Please enter correct number item.")
+                    elif archive_choice == "N" or archive_choice == "n":
+                        print("Back to main menu!")
+
+                    else:
+                        print("Invalid choice! Please enter y or n ")
+                        continue
+            else:
+                print("Archive list is empty! Nothing to move.")
+
         elif choice == "5":
             print("Exit!")
             break
 
     except ValueError:
-        print("Invalid input! Please enter 1, 2 or 3.")
+        print("Invalid input! Please enter 1, 2,3,4 or 5.")
 
