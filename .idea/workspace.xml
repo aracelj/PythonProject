@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 3/extra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 3/5_V1_Random_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 3/5_V2_Random_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 3/4_Figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/4_Figures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/extra.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +58,9 @@
     "Python.3variabledatatyper.executor": "Run",
     "Python.4-ovningar.executor": "Run",
     "Python.4_Figures.executor": "Run",
+    "Python.5_Random_number.executor": "Run",
+    "Python.5_V1_Random_number.executor": "Run",
+    "Python.5_V2_Random_number.executor": "Run",
     "Python.MiniCal.executor": "Run",
     "Python.U1_name.executor": "Run",
     "Python.U2_biljet.executor": "Run",
@@ -71,6 +77,7 @@
     "Python.V2U4_Temperature.executor": "Run",
     "Python.V2U5_MiniCal copy.com.executor": "Run",
     "Python.V2U5_MiniCalculator.executor": "Run",
+    "Python.extra.executor": "Run",
     "Python.main.executor": "Run",
     "Python.ticketchange.executor": "Run",
     "Python.u2.executor": "Run",
@@ -170,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Comment">
-      <option name="closed" value="true" />
-      <created>1768232214624</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1768232214625</updated>
     </task>
     <task id="LOCAL-00002" summary="Comment">
       <option name="closed" value="true" />
@@ -563,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769615369469</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1769616525156</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1769616525157</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -581,5 +588,16 @@
     <MESSAGE value="Comment" />
     <MESSAGE value="Comment." />
     <option name="LAST_COMMIT_MESSAGE" value="Comment." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Veckouppgift 3/5_V1_Random_number.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

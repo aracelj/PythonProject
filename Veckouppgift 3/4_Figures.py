@@ -12,7 +12,7 @@
 """
 
 # 4 Figure with loop
-print("===== Enter Figures a to j =====")
+print("========== Enter Figures a to j ==========")
 figure = ''
 figure_input = input("Select figure from a to j or 'q' to quit: ")
 figure = figure_input.lower()
@@ -104,10 +104,12 @@ while  figure != 'q':
                     s += "."                                        # prints "." for the rest of the lines
             print(s)
         break
-    elif figure == 'i':
+
+    elif figure == 'i':                                             #printing i option figure
         for y in range(1,7):
             s = ""
             for x in range(1,9):
+
                 if ((x == 2 or x == 5 or x == 8) and (y == 1 or y == 4)) or ((x == 3 or x == 6) and (y == 2 or y == 5)) or ((x == 1 or x == 4 or x == 7) and (y == 3 or y == 6)):
                     s += "#"
                 if ((x == 3 or x == 6) and (y == 1 or y == 4)) or ((x == 1 or x == 4 or x == 7) and (y == 2 or y == 5)) or ((x == 2 or x == 4 or x == 8) and (y == 3 or y == 6)):
@@ -116,7 +118,8 @@ while  figure != 'q':
                     s += "."
             print(s)
         break
-    elif figure == 'j':
+
+    elif figure == 'j':                                              #printing i option figure
         for y in range(1, 7):
             s = ""
             for x in range(1, 9):
@@ -134,6 +137,7 @@ while  figure != 'q':
         break
     else:
         print("No figure selected!")
+        break
 
 
 
