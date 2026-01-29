@@ -1,7 +1,10 @@
 # 6 Version 2 Todo List by Araceli Jakobsson
 # Display a Todo List
-# Option 1 See the content of the list
+# Option 1 Display the content of the list
 # Option 2 Add new item in the list
+# Option 3 Marked as done and remove the item from Todo list and save it to the Archive list
+# Option 4 Archive list and ask user whether to move the item back to the Todo List or not
+# Option 5 Exit the program
 
 
 
