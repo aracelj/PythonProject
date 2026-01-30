@@ -11,12 +11,6 @@
 # Version2 Todo List
 
 print(" ***** Todo List Extravaganza version 2*****")
-#print("Choose an option:")
-#print("1 - To-do List Content ")
-#print("2 - Add a new To-do list")
-#print("3 - Marked as done ")
-#print("4 - Archive ")
-#print("5 - Exit")
 
 counter = 0
 archive_counter = 0
