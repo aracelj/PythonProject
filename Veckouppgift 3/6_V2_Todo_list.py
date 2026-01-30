@@ -11,12 +11,12 @@
 # Version2 Todo List
 
 print(" ***** Todo List Extravaganza version 2*****")
-print("Choose an option:")
-print("1 - To-do List Content ")
-print("2 - Add a new task")
-print("3 - Marked as done ")
-print("4 - Archive ")
-print("5 - Exit")
+#print("Choose an option:")
+#print("1 - To-do List Content ")
+#print("2 - Add a new To-do list")
+#print("3 - Marked as done ")
+#print("4 - Archive ")
+#print("5 - Exit")
 
 counter = 0
 archive_counter = 0
@@ -28,12 +28,11 @@ archive_list = []
 archive_choice = []
 while True:
     try:
-        choice = input("(1) To-do"
-                       " (2) Add "
-                       " (3) Marked "
-                       " (4) Archive "
-                       " (5) Exit /"
-                       "Enter your choice number: ")
+        choice = input(" ============ Choose an option: ============ "
+                       "\n(1) To-do list Content       (4) Archive "
+                       "\n(2) Add a new To-do list     (5) Exit "
+                       "\n(3) Mark as done "
+                       "\nEnter your choice number: ")
 
         if choice not in ("1", "2", "3", "4", "5"):
             print("Invalid choice! Please enter 1, 2, 3, 4 or 5.")
@@ -50,7 +49,7 @@ while True:
                          print(f"{i+1} - {archive_index} ")
 
         elif choice == "2":                                                #add an item menu
-            add_item = input("Enter a new task: ")
+            add_item = input("Enter a new To-do list: ")
             add_item = add_item.capitalize()
             list.append(add_item)                                          #add an item to the Todo list
             print(f"Ok, added {add_item} in the list.", )
@@ -58,11 +57,11 @@ while True:
         elif choice == "3":                                                #marked as done menu
             counter = len(list)
             if counter != 0:
-                print("Choose the task to mark as done: ")
+                print("Choose the To-do task to mark as done: ")
                 for i in range(counter):
                          archive_index = list[i]
                          print(f"{i+1} - {archive_index} ")
-                archive_choice = input("Enter the task no. to mark as done: ")
+                archive_choice = input("Enter the list no. to mark as done: ")
                 archive_counter = int(archive_choice)
                 if (archive_counter > 0) and (archive_counter <= counter): #accepts only within the menu item no.
                     archive_item = list[archive_counter-1]
@@ -78,6 +77,7 @@ while True:
                 print("To-do List is empty! Nothing to mark as done.")
 
         elif choice == "4":                                                #archive menu
+            print("Archive List: ")
             counter = len(archive_list)
             if counter !=0:
                     for i in range(counter):
@@ -85,13 +85,14 @@ while True:
                         print(f"{i + 1} - {archive_index} ")
                     archive_choice = input("Move back the Archived task to Todo List? Yes(y) or No(n): ")
                     if archive_choice == "Y" or archive_choice == "y":      #accepts only Y or y
-                        move_choice =input("Which task number to move to Todo List?:")
+                        move_choice =input("Which archived number to move to To-do List?: ")
                         archive_counter = int(move_choice)
                         if (archive_counter > 0) and (archive_counter <= counter):    #accepts only within the menu item no.
                             archive_item = archive_list[archive_counter - 1]
                             if archive_item in archive_list:
                                 list.append(archive_item)                             #added to the Todo list
                                 archive_list.remove(archive_item)                     #removes the item from archive list
+                                print(f"Ok, archived \"{archive_item}\" is back in To-do list.")
                             else:
                                 print("Not Found!")
                         else:
@@ -100,7 +101,7 @@ while True:
                         print("Back to main menu!")
 
                     else:
-                        print("Invalid choice! Please enter y or n ")
+                        print("Invalid choice! Please enter y or n .")
                         continue
             else:
                 print("Archive list is empty! Nothing to move.")
