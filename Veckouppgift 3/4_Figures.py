@@ -1,13 +1,13 @@
 # 4 Figures with loop by Araceli Jakobsson
 # User selects figures from a to j and print out the figure
 """
-        for y in range(1, 7):                                  # making 7 lines
+        for y in range(1, 7):
             s = ""
             for x in range(1, 9):
-                if x == 1:                                     # prints "#" only in 1st column
+                if x == 1:
                     s += "#"
                 else:
-                    s += "."                                   # prints "." for the rest of the lines
+                    s += "."
             print(s)
 """
 
