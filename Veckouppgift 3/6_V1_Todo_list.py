@@ -4,9 +4,9 @@
 # Option 2 Add new item in the list
 
 
-# Version 1 Todo List
+# Version 1 To-do List
 
-print(" ***** Todo List Extravaganza version 1 *****")
+print(" ***** To-do List Extravaganza version 1 *****")
 print("Choose an option:")
 print("1 - Todo List Content ")
 print("2 - Add a new item ")

@@ -8,9 +8,9 @@
 
 
 
-# Version2 Todo List
+# Version2 To-do List
 
-print(" ***** Todo List Extravaganza version 2*****")
+print(" ***** To-do List Extravaganza version 2*****")
 
 counter = 0
 archive_counter = 0
@@ -32,7 +32,7 @@ while True:
             print("Invalid choice! Please enter 1, 2, 3, 4 or 5.")
             continue                                                       # ask again
 
-        if choice == "1":                                                  #content of the list menu
+        if choice == "1":                                                  #to show To-do list content
             counter = len(list)
             if counter == 0:
                 print("This list is empty!)")
