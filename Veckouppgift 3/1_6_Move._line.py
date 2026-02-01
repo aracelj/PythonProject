@@ -43,7 +43,7 @@ for y in range(1, 7):
 
 
 #5 Change the code to move a step to the right
-print("===== Moving the line one step to the right =====")
+print("\n===== Moving the line one step to the right =====")
 for y in range(1, 7):
     s = ""
     for x in range(1, 9):

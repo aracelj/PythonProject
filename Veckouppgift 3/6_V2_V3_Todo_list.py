@@ -10,7 +10,7 @@
 
 # Version2 To-do List
 
-print("***** To-do List Extravaganza version 2 *****")
+print("***** To-do List Extravaganza version 2 & 3 *****")
 
 counter = 0
 archive_counter = 0
