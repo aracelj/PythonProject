@@ -6,4 +6,4 @@ film = ['Avatar', 'Avengers:Endgame', 'Wonder Woman', 'Titanic']
 print("Current Film List: ", film)
 another_film = str(input("Enter another film: "))
 film.append(another_film)                                #adding another film at the last of the list
-print("Current Film List: ", film)
+print("Updated Film List: ", film)

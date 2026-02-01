@@ -9,9 +9,9 @@ print("Welcome to the random guessing number!Think of a number from 1 to 100. Ca
 secret_number = random.randint(1,100)
 attempts = 0
 max_attempts= 6
-print(secret_number)                                        # guide for the secret number
+#print(secret_number)                                        # guide for the secret number
 while attempts < max_attempts:
-    input_number = input("Guess the number ( 1-100): ")
+    input_number = input("Guess the number (1-100): ")
     attempts += 1
     try:
         guess_number = int(input_number)

@@ -9,7 +9,7 @@
 print(" ***** To-do List Extravaganza version 1 *****")
 print("Choose an option:")
 print("1 - Todo List Content ")
-print("2 - Add a new item ")
+print("2 - Add a new To-do list ")
 print("3 - Exit ")
 
 list = []
@@ -30,7 +30,7 @@ while True:
                 print(" Todo List: \n", list)
 
         elif choice == "2":                                             #add an item
-            add_item = input("Enter an item to add: ")
+            add_item = input("Enter a To-do list to add: ")
             list.append(add_item)
             print(f"Ok, added {add_item} in the list.", )
 

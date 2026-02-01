@@ -56,7 +56,7 @@ while True:
 final_sum = amount_sum + ((total_tips/100) * amount_sum)                    # computes for the final sum with tips
 amount_pay = final_sum / person_count                                       # computes for the final pay per person
 print("Total amount: ", amount_sum, "kr")
-print(f"Total Tips (Default 10% + {additional_tips}): ", total_tips, "%")
+print(f"Total Tips (Default 10% + {additional_tips}%): ", total_tips, "%")
 print(f"That makes {final_sum:.2f} kr in total plus tips , also {amount_pay:.2f} kr per person. Welcome back! ")
 
 

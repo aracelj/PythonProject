@@ -11,25 +11,25 @@ secret_number = random.randint(1,100)
 attempts = 0
 guess_number = 0
 max_attempts= 10
-print(secret_number)                                        # guide for the secret number
+#print(secret_number)                                                                      # guide for the secret number
 while attempts < max_attempts:
-        input_number = input("Guess the number ( 1-100): ")
+        input_number = input("Guess the number (1-100): ")
         attempts += 1
         try:
                 guess_number = int(input_number)
                 if (guess_number < secret_number) and (guess_number > 0):
                          if abs(secret_number - guess_number) <= 5:                         #checks if guess number is 5 steps closer to the correct no.
-                             print("No, that number is too close to the correct number.")
+                             print("Now, it's starting to burn!")
                          else:                                                              #checks if lower than secret no.
                              print("No, that is too low!")
                 elif (guess_number > secret_number) and (guess_number < 101):               #checks if guess number is 5 steps closer to the correct no.
                          if abs(secret_number - guess_number) <= 5:
-                             print("No, that number is too close to the correct number.")
+                             print("Now, it's starting to burn!")
                          else:                                                              #checks if higher than secret no.
                              print("No, that is too high!")
                 elif guess_number >= 101 or guess_number <= 0:                              #checks if guess number is within 1 to 100
                          print("Number must be from 1 to 100. Try again!")
-                else: #guess_number == secret_number:
+                else:
                          print(f"Correct!! You guessed it in {attempts} tries.")
                          break
 

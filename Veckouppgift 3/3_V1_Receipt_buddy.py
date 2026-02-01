@@ -17,5 +17,5 @@ while True:
             amount = float(amount_input)                                    # converts the input to float
             amount_sum += amount                                            # adds the amount
 
-print("That makes", amount_sum, " SEK in total. Welcome back! ")  # computes all the amount
+print("That makes", amount_sum, "SEK in total. Welcome back! ")  # computes all the amount
 

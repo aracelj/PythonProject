@@ -29,6 +29,8 @@ remove_film_list = input("Enter the film you wish to remove: ")
 remove_film_list = remove_film_list.title()                                #converting the film_list into a title format
 film_list.remove(remove_film_list)                                         #removing the film_list from the list
 print("Updated film List: ", film_list)
+position = film_list.index("Fellowship Of The Ring")                  #fetching the position of the film_list using index function
+print("Fellowship Of The Ring is on index no: ", position)
 
 
 #2_3f Take the length of the list
