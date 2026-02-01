@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/1_3_Counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/1_3_Counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/1_5_Move._line.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/1_6_Move._line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/2_3b_Add_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/2_3b_Add_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/2_3c_h_Insert_index_remove_length_reverse_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/2_3c_h_Insert_index_remove_length_reverse_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/3_V1_Receipt_buddy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/3_V1_Receipt_buddy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/3_V3_Receipt_buddy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/3_V3_Receipt_buddy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/5_V1_Random_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/5_V1_Random_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/5_V2_Random_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/5_V2_Random_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/6_V1_Todo_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/6_V1_Todo_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 3/6_V2_Todo_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 3/6_V2_V3_Todo_list.py" afterDir="false" />
-    </list>
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768249026539</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1768249026539</updated>
     </task>
     <task id="LOCAL-00014" summary="Comment.">
       <option name="closed" value="true" />
@@ -595,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769968413893</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1769977587487</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1769977587487</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
