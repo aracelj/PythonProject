@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1a_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1b_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1c_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1d_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1e_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1f_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1g_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1h_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/1i_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/2_1_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/2_3_Loop_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/my_string_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,78 +57,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.1-main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_1_While_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_2_For_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_3_Counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_4_XY.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.1_5_Slice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_6_Move._line.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2-ticket.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_1a_Sum_1_10.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.2_1b_Sum_1_100.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_1c_Sum_While.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_2_List.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.2_3a_Film.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_3b_Add_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_3c_h_Insert_index_remove_length_reverse_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-variabledatatyper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_V1_Receipt_buddy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_V2_Receipt_buddy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_V3_Receipt_buddy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3variabledatatyper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4-ovningar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4_Figures.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_Random_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_V1_Random_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5_V2_Random_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6_V1_Todo_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6_V2_Todo_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6_V2_V3_Todo_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MiniCal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U1_name.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U2_biljet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U3_1a_b_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U3_1a_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U3_2a_2b_cost.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U4_1a_1b_speed.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U4_2_triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U4_2a_triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.U4_3a_3b_date.executor&quot;: &quot;Run&quot;,
-    &quot;Python.V2U1_Price.executor&quot;: &quot;Run&quot;,
-    &quot;Python.V2U2_Balder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.V2U3_Sports.executor&quot;: &quot;Run&quot;,
-    &quot;Python.V2U4_Temperature.executor&quot;: &quot;Run&quot;,
-    &quot;Python.V2U5_MiniCal copy.com.executor&quot;: &quot;Run&quot;,
-    &quot;Python.V2U5_MiniCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.extra.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ticketchange.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u2_biljet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u2_ticket.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u3._cost.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u3_2a_2b_cost.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u3_date.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u4_3a_3b_date.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u4_3b_date.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u4_speed.executor&quot;: &quot;Run&quot;,
-    &quot;Python.u4_speed_triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.v2U2_Balder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.veckouppgift1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/handelsakademin/pythoncodes/PythonProject/Veckouppgift 3a/Veckouppgift 3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1-main.executor": "Run",
+    "Python.1_1_While_loop.executor": "Run",
+    "Python.1_2_For_loop.executor": "Run",
+    "Python.1_3_Counter.executor": "Run",
+    "Python.1_4_XY.executor": "Debug",
+    "Python.1_5_Slice.executor": "Run",
+    "Python.1_6_Move._line.executor": "Run",
+    "Python.1a_review.executor": "Run",
+    "Python.1b_review.executor": "Run",
+    "Python.1c_review.executor": "Run",
+    "Python.1d_review.executor": "Run",
+    "Python.1e_review.executor": "Run",
+    "Python.1f_review.executor": "Run",
+    "Python.1g_review.executor": "Run",
+    "Python.1h_review.executor": "Run",
+    "Python.1i_review.executor": "Run",
+    "Python.2-ticket.executor": "Run",
+    "Python.2_1_main.executor": "Run",
+    "Python.2_1a_Sum_1_10.executor": "Debug",
+    "Python.2_1b_Sum_1_100.executor": "Run",
+    "Python.2_1c_Sum_While.executor": "Run",
+    "Python.2_2_List.executor": "Debug",
+    "Python.2_3_Loop_function.executor": "Run",
+    "Python.2_3a_Film.executor": "Run",
+    "Python.2_3b_Add_list.executor": "Run",
+    "Python.2_3c_h_Insert_index_remove_length_reverse_sort.executor": "Run",
+    "Python.2_main.executor": "Run",
+    "Python.3-variabledatatyper.executor": "Run",
+    "Python.3_V1_Receipt_buddy.executor": "Run",
+    "Python.3_V2_Receipt_buddy.executor": "Run",
+    "Python.3_V3_Receipt_buddy.executor": "Run",
+    "Python.3variabledatatyper.executor": "Run",
+    "Python.4-ovningar.executor": "Run",
+    "Python.4_Figures.executor": "Run",
+    "Python.5_Random_number.executor": "Run",
+    "Python.5_V1_Random_number.executor": "Run",
+    "Python.5_V2_Random_number.executor": "Run",
+    "Python.6_V1_Todo_list.executor": "Run",
+    "Python.6_V2_Todo_list.executor": "Run",
+    "Python.6_V2_V3_Todo_list.executor": "Run",
+    "Python.MiniCal.executor": "Run",
+    "Python.U1_name.executor": "Run",
+    "Python.U2_biljet.executor": "Run",
+    "Python.U3_1a_b_number.executor": "Run",
+    "Python.U3_1a_number.executor": "Run",
+    "Python.U3_2a_2b_cost.executor": "Run",
+    "Python.U4_1a_1b_speed.executor": "Run",
+    "Python.U4_2_triangle.executor": "Run",
+    "Python.U4_2a_triangle.executor": "Run",
+    "Python.U4_3a_3b_date.executor": "Run",
+    "Python.V2U1_Price.executor": "Run",
+    "Python.V2U2_Balder.executor": "Run",
+    "Python.V2U3_Sports.executor": "Run",
+    "Python.V2U4_Temperature.executor": "Run",
+    "Python.V2U5_MiniCal copy.com.executor": "Run",
+    "Python.V2U5_MiniCalculator.executor": "Run",
+    "Python.extra.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.my_string_module.executor": "Run",
+    "Python.string_function.executor": "Run",
+    "Python.ticketchange.executor": "Run",
+    "Python.u2.executor": "Run",
+    "Python.u2_biljet.executor": "Run",
+    "Python.u2_ticket.executor": "Run",
+    "Python.u3._cost.executor": "Run",
+    "Python.u3.executor": "Run",
+    "Python.u3_2a_2b_cost.executor": "Run",
+    "Python.u3_date.executor": "Run",
+    "Python.u4.executor": "Run",
+    "Python.u4_3a_3b_date.executor": "Run",
+    "Python.u4_3b_date.executor": "Run",
+    "Python.u4_speed.executor": "Run",
+    "Python.u4_speed_triangle.executor": "Run",
+    "Python.v2U2_Balder.executor": "Run",
+    "Python.veckouppgift1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/handelsakademin/pythoncodes/PythonProject/Veckouppgift 3a/Veckouppgift 3"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\handelsakademin\pythoncodes\PythonProject\Veckouppgift 3a\Veckouppgift 3" />
@@ -190,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768249808309</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1768249808309</updated>
     </task>
     <task id="LOCAL-00017" summary="Comment.">
       <option name="closed" value="true" />
@@ -583,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769978174429</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1769978736336</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1769978736336</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
