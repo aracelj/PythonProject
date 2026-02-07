@@ -6,5 +6,5 @@ import random
 import my_string_module
 
 print("======== Game 21 Ver.2 ========")
-random_input = random.randint(1, 13)
-my_output = my_string_module.my_game2(random_input)
+card = random.randint(1, 13)
+my_output = my_string_module.my_game2(card)
