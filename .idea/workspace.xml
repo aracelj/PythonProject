@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/4_v1_pokerhand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/5_v1_turtle_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/5_v2_turtle_graphics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/5_turtle_graphics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/5_v3_turtle_graphics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/5_v4_turtle_graphics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/3_v2_Game21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/3_v2_Game21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/3_v3_Game21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/3_v3_Game21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/2_5_cut_edges.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/2_5_cut_edges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/5_v1_turtle_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/5_v1_turtle_graphics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 4/my_string_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/my_string_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/sample.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
     "Python.1h_review.executor": "Run",
     "Python.1i_review.executor": "Run",
     "Python.2-ticket.executor": "Run",
+    "Python.2_1_2a_2b_main.executor": "Run",
     "Python.2_1_main.executor": "Run",
     "Python.2_1a_Sum_1_10.executor": "Debug",
     "Python.2_1b_Sum_1_100.executor": "Run",
@@ -78,6 +80,7 @@
     "Python.2_2_List.executor": "Debug",
     "Python.2_3_Loop_function.executor": "Run",
     "Python.2_3_Loop_functions.executor": "Run",
+    "Python.2_3_loop_functions.executor": "Run",
     "Python.2_3a_Film.executor": "Run",
     "Python.2_3b_Add_list.executor": "Run",
     "Python.2_3c_h_Insert_index_remove_length_reverse_sort.executor": "Run",
@@ -101,11 +104,16 @@
     "Python.4-ovningar.executor": "Run",
     "Python.4_Figures.executor": "Run",
     "Python.4_v1_pokerhand.executor": "Run",
+    "Python.5.v3_turtle_graphics.executor": "Run",
     "Python.5_Random_number.executor": "Run",
     "Python.5_V1_Random_number.executor": "Run",
     "Python.5_V2_Random_number.executor": "Run",
+    "Python.5_turtle_graphics.executor": "Run",
     "Python.5_v1_turtle.executor": "Run",
+    "Python.5_v1_turtle_graphics.executor": "Run",
     "Python.5_v2_turtle_graphics.executor": "Run",
+    "Python.5_v3_turtle_graphics.executor": "Run",
+    "Python.5_v4_turtle_graphics.executor": "Run",
     "Python.6_V1_Todo_list.executor": "Run",
     "Python.6_V2_Todo_list.executor": "Run",
     "Python.6_V2_V3_Todo_list.executor": "Run",
@@ -129,6 +137,7 @@
     "Python.input_string.executor": "Run",
     "Python.main.executor": "Run",
     "Python.my_string_module.executor": "Run",
+    "Python.sample.executor": "Run",
     "Python.string_function.executor": "Run",
     "Python.ticketchange.executor": "Run",
     "Python.u2.executor": "Run",
@@ -228,14 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768310034175</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1768310034175</updated>
     </task>
     <task id="LOCAL-00020" summary="Comment.">
       <option name="closed" value="true" />
@@ -621,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770450141204</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1770466798231</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1770466798231</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
