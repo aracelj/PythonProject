@@ -16,10 +16,10 @@ Output will be:
 """
 
 def foo(i):
-    return 2*i*i                        # 2 * 3 * 3
+    return 2*i*i                        # 2 * 3 * 3 = 18
 
 def goo(x, y):
-    return x(y)                         # x(3)
+    return x(y)                         # foo(3)
 
 a = goo(foo, 3);                        # a = return value (18) from foo function
 print(a)
