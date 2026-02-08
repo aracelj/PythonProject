@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/4_pokerhand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/4_v1_pokerhand_dummy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/4_v2_pokerhand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/4_v3_pokerhand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/4_v1_pokerhand.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/4_v1_pokerhand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/5_turtle_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/5_turtle_graphics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/5_v3_turtle_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/5_v3_turtle_graphics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 4/my_string_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 4/my_string_module.py" afterDir="false" />
-    </list>
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,14 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768310219519</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1768310219519</updated>
     </task>
     <task id="LOCAL-00022" summary="Comment.">
       <option name="closed" value="true" />
@@ -634,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770498254371</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Comment.">
+      <option name="closed" value="true" />
+      <created>1770584816116</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1770584816116</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
