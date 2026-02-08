@@ -133,13 +133,58 @@ def my_game3(card):                                                  #3_v1 Game 
                 print(f"Player lost a game!")
         time.sleep(3)
 
-def my_poker():                                                      #4 Pokerhand suits
+def my_poker(card_counter):                                                      #4 Pokerhand suits
     suits = ["Hearts","Clubs","Spades","Diamonds"]
     cards = []
     for suit in suits:
         for value in range(2,15):
-            cards.append((value, suit))
-    return random.sample(cards,5)
+            cards.append((value, suit))                              # stored as tuple as [value: 'suit' ..] creating 52 combinations
+    return random.sample(cards,card_counter)
+
+def my_poker_evaluation2(cards,version):  # 4 Pokerhand evaluation
+    values = []
+    suits = []
+    for value, suit in cards:
+        values.append(value)
+        suits.append(suit)
+
+    i = 0
+
+    poker_version = 3
+    if values[i] == values[i + 1]:
+        value = values[i]
+        message = "The cards have the same value."
+        if poker_version == version:
+           return (message, value, suits)
+        else:
+           return message
+    else:
+        return "No pair found."
+
+
+def my_poker_evaluation2b(cards):  # 4 Pokerhand evaluation
+    values = []
+    suits = []
+    for value, suit in cards:
+        values.append(value)
+        suits.append(suit)
+
+    i = 0
+    if values[i] == values[i + 1]:
+        value = values[i]
+        message = "The cards have the same value."
+        return (message, value)
+    else:
+        return "No pair found."
+
+
+
+def card_name(value):
+    names = {11:"Jack", 12:"Queen", 13:"King", 14:"Ace"}
+    return names.get(value, str(value))                              # returns the string value if value does not exist in names
+
+
+
 
 def my_poker_evaluation(cards):                                      #4 Pokerhand evaluation
     values = []
@@ -152,7 +197,7 @@ def my_poker_evaluation(cards):                                      #4 Pokerhan
 
     counts = {}                                                      # empty dictionary
     for i in values:
-         counts[i] = counts.get(i,0) +1                              # checks if the i exists in the dictionary and returns that value for i
+         counts[i] = counts.get(i,0) + 1                             # checks if the i exists in the dictionary and returns that value for i + 1
 
     count_values = sorted(counts.values(), reverse=True)             # fetch all values and sort it from largest to smallest
 
@@ -180,9 +225,63 @@ def my_poker_evaluation(cards):                                      #4 Pokerhan
     else:
         return "High Card"
 
-def card_name(value):
-    names = {11:"Jack", 12:"Queen", 13:"King", 14:"Ace"}
-    return names.get(value, str(value))
+def evaluate_hand_simple(cards):
+    values = []
+    suits = []
+    for value, suit in cards:
+        values.append(value)
+        suits.append(suit)
+
+    values.sort()
+
+    # Count card values
+    counts = {}
+    for value, suit in cards:
+        counts[value] = counts.get(value, 0) + 1
+
+    # Detect pairs, three, four
+    pairs = []
+    three = None
+    four = None
+    for value, count in counts.items():
+        if count == 4:
+            four = value
+        elif count == 3:
+            three = value
+        elif count == 2:
+            pairs.append(value)
+
+# Detect flush
+    is_flush = len(set(suits)) == 1
+
+    # Detect straight
+    is_straight = all(values[i] - values[i-1] == 1 for i in range(1, len(values)))
+    # Ace-low straight (A-2-3-4-5)
+    if set(values) == {14, 2, 3, 4, 5}:
+        is_straight = True
+        values = [1, 2, 3, 4, 5]
+
+    # Check hands in order of strength
+    if is_straight and is_flush:
+        return f"Straight Flush, high card: {card_name(values[-1])}"
+    if four:
+        return f"Four of a Kind: {card_name(four)}s"
+    if three and pairs:
+        return f"Full House: {card_name(three)}s over {card_name(pairs[0])}s"
+    if is_flush:
+        return "Flush"
+    if is_straight:
+        return f"Straight, High card: {card_name(values[-1])}"
+    if three:
+        return f"Three of a Kind: {card_name(three)}s"
+    if len(pairs) == 2:
+        return f"Two Pair: {card_name(max(pairs))}s and {card_name(min(pairs))}s"
+    if len(pairs) == 1:
+        return f"One Pair: {card_name(pairs[0])}s"
+
+    # High card if no other hand
+    return f"High Card"
+
 
 
 def my_drawing(sides):                                     # Turtle Graphics ver1

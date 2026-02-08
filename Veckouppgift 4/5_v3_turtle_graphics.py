@@ -9,7 +9,11 @@ for x in range(7):
 
 #Editing the original code to form a complete circle
 import turtle as t
-for x in range(12):
-    t.forward(40)
-    t.right(30)
+i = 12
+length = 40
+angle = 30
+
+for x in range(i):                    #changing the counter to 12 to complete a full circle
+    t.forward(length)
+    t.right(angle)
 t.mainloop()

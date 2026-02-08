@@ -1,5 +1,5 @@
 # Exercise 5 Game Turtle Graphics by Araceli Jakobsson
-# Programs draw a figure as the code suggest
+# Programs draw a triangle
 
 """
 Original code:
