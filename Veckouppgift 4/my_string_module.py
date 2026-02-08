@@ -141,7 +141,7 @@ def my_poker(card_counter):                                                     
             cards.append((value, suit))                              # stored as tuple as [value: 'suit' ..] creating 52 combinations
     return random.sample(cards,card_counter)
 
-def my_poker_evaluation2(cards,version):  # 4 Pokerhand evaluation
+def my_poker_evaluation(cards,version):  # 4 Pokerhand evaluation
     values = []
     suits = []
     for value, suit in cards:
@@ -153,27 +153,11 @@ def my_poker_evaluation2(cards,version):  # 4 Pokerhand evaluation
     poker_version = 3
     if values[i] == values[i + 1]:
         value = values[i]
-        message = "The cards have the same value."
+        message = "You have 2 cards of same value."
         if poker_version == version:
            return (message, value, suits)
         else:
            return message
-    else:
-        return "No pair found."
-
-
-def my_poker_evaluation2b(cards):  # 4 Pokerhand evaluation
-    values = []
-    suits = []
-    for value, suit in cards:
-        values.append(value)
-        suits.append(suit)
-
-    i = 0
-    if values[i] == values[i + 1]:
-        value = values[i]
-        message = "The cards have the same value."
-        return (message, value)
     else:
         return "No pair found."
 
@@ -185,45 +169,6 @@ def card_name(value):
 
 
 
-
-def my_poker_evaluation(cards):                                      #4 Pokerhand evaluation
-    values = []
-    suits = []
-    for value, suit in cards:
-        values.append(value)
-        suits.append(suit)
-
-    values.sort()
-
-    counts = {}                                                      # empty dictionary
-    for i in values:
-         counts[i] = counts.get(i,0) + 1                             # checks if the i exists in the dictionary and returns that value for i + 1
-
-    count_values = sorted(counts.values(), reverse=True)             # fetch all values and sort it from largest to smallest
-
-    flush = len(set(suits)) == 1
-
-    straight = values == list(range(values[0], values[0] +5))
-
-    if straight and flush:
-        return "Straight Flush"
-
-    elif count_values == [3,2]:
-        return "Full House"
-    elif flush:
-        return "Flush"
-    elif straight:
-        return "Straight"
-
-    elif count_values == [3, 1, 1]:
-        return "Three of a Kind"
-
-    elif count_values == [2, 2, 1]:
-        return "Two Pairs"
-    elif count_values == [2, 1, 1, 1]:
-        return "One Pair"
-    else:
-        return "High Card"
 
 def evaluate_hand_simple(cards):
     values = []
@@ -256,6 +201,7 @@ def evaluate_hand_simple(cards):
 
     # Detect straight
     is_straight = all(values[i] - values[i-1] == 1 for i in range(1, len(values)))
+
     # Ace-low straight (A-2-3-4-5)
     if set(values) == {14, 2, 3, 4, 5}:
         is_straight = True
@@ -263,24 +209,24 @@ def evaluate_hand_simple(cards):
 
     # Check hands in order of strength
     if is_straight and is_flush:
-        return f"Straight Flush, high card: {card_name(values[-1])}"
+        return f"Straight Flush: {card_name(values[-1])}"
     if four:
-        return f"Four of a Kind: {card_name(four)}s"
+        return f"Four of a Kind with value: {card_name(four)}s"
     if three and pairs:
         return f"Full House: {card_name(three)}s over {card_name(pairs[0])}s"
     if is_flush:
         return "Flush"
     if is_straight:
-        return f"Straight, High card: {card_name(values[-1])}"
+        return f"Straight: {card_name(values[-1])}"
     if three:
-        return f"Three of a Kind: {card_name(three)}s"
+        return f"Three of a Kind with value: {card_name(three)}s"
     if len(pairs) == 2:
-        return f"Two Pair: {card_name(max(pairs))}s and {card_name(min(pairs))}s"
+        return f"Two Pairs with value: {card_name(max(pairs))}s and {card_name(min(pairs))}s"
     if len(pairs) == 1:
-        return f"One Pair: {card_name(pairs[0])}s"
+        return f"One Pair with value: {card_name(pairs[0])}s"
 
-    # High card if no other hand
-    return f"High Card"
+    # Fives if no other hand
+    return f"Fives"
 
 
 
