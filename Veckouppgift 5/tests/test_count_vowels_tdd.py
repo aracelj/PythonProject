@@ -10,11 +10,13 @@ def test_count_vowels__green():
     assert count_vowels__green("hi") == 1
     assert count_vowels__green("aeiou") == 5
     assert count_vowels__green("HOme") == 2
+    assert count_vowels__green("shh") == 0
 
 
 
 def test_count_vowels__refactor():
     assert count_vowels__refactor("sju flickor") == 3
     assert count_vowels__refactor("smÖrgÅs") == 2
+    assert count_vowels__refactor("shh") == 0
 
 

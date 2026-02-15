@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/multiplication_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_multiplication_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_user_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/user_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_5_max_2nd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_balance_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_max_2nd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U1_2_empty_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_2_sum_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U1_3b_count_vowels_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_3b_count_vowels_tdd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U1_4_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_4_max.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_1a_celsius_fahrenheit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_1a_celsius_fahrenheit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_2ato2c_count_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_2ato2c_count_words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_3ato3c_find_median.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_3ato3c_find_median.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_4ato4c_sorted_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_4ato4c_sorted_ascending.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 5/balance_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/balance_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_balance_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_list_balance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/list_balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/multiplication_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/multiply_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_count_vowels_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_count_vowels_tdd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_find_median.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_find_median.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_list_balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_multiplication_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_multiply_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_sorted_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_sorted_ascending.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_user_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_user_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/user_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/user_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +82,9 @@
     "Python tests.Python tests in test_find_median.py.executor": "Run",
     "Python tests.Python tests in test_list_balance.py.executor": "Run",
     "Python tests.Python tests in test_max.py.executor": "Run",
+    "Python tests.Python tests in test_max_2nd.py.executor": "Run",
     "Python tests.Python tests in test_multiplication_table.py.executor": "Run",
+    "Python tests.Python tests in test_multiply_table.py.executor": "Run",
     "Python tests.Python tests in test_sorted_ascending.py.executor": "Run",
     "Python tests.Python tests in test_user_search.py.executor": "Run",
     "Python.1-main.executor": "Run",
@@ -151,6 +160,7 @@
     "Python.U1_1ato1f_equivalence.executor": "Run",
     "Python.U1_4_Max.executor": "Run",
     "Python.U1_4_max.executor": "Run",
+    "Python.U1_5_max_2nd.executor": "Run",
     "Python.U1_name.executor": "Run",
     "Python.U2_1a_temperature.executor": "Run",
     "Python.U2_2a_count_words.executor": "Run",
@@ -204,7 +214,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/handelsakademin/pythoncodes/PythonProject/Veckouppgift 3a/Veckouppgift 5"
+    "last_opened_file_path": "D:/handelsakademin/pythoncodes/PythonProject/Veckouppgift 3a/Veckouppgift 5",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -284,14 +295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768579179145</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1768579179145</updated>
     </task>
     <task id="LOCAL-00028" summary="Comment.">
       <option name="closed" value="true" />
@@ -677,7 +680,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771157728320</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="added">
+      <option name="closed" value="true" />
+      <created>1771175719436</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1771175719436</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -704,16 +715,6 @@
           <url>file://$PROJECT_DIR$/Veckouppgift 5/U1_1ato1f_equivalence.py</url>
           <line>18</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Veckouppgift 5/tests/test_list_balance.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Veckouppgift 5/tests/test_list_balance.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

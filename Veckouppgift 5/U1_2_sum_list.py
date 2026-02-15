@@ -33,7 +33,7 @@ def test_empty_list():
 
 def test_number_list():
 # TODO: testa med listor som har ett, två respektive fem element.
-    assert sum_list([5]) == 5
-    assert sum_list([1,2]) == 3
-    assert sum_list([1,2,3,4,5]) == 15
+    assert sum_list([5]) == 5                       #testing with 1 element input
+    assert sum_list([1,2]) == 3                     #testing with 2 elements input
+    assert sum_list([1,2,3,4,5]) == 15              #testing with 5 elements input
 
