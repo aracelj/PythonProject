@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="Comment.">
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 4/tests/test_my_string_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_2_empty_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_3a_count_vowels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_3b_count_vowels_tdd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_4_max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_1a_celsius_fahrenheit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_2ato2c_count_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_3ato3c_find_median.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_4ato4c_sorted_ascending.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_celsius_fahrenheit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_count_vowels_tdd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_count_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_find_median.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_sorted_ascending.py" afterDir="false" />
+    <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="added">
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/balance_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/list_balance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_balance_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/sample.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -69,6 +56,7 @@
     "Python tests.Python tests in 1_3a_count_vowels.py.executor": "Run",
     "Python tests.Python tests in 1_3b_test_count_vowels_tdd.py.executor": "Run",
     "Python tests.Python tests in 2_empty_list.py.executor": "Run",
+    "Python tests.Python tests in test_balance_list.py.executor": "Run",
     "Python tests.Python tests in test_celsius_fahrenheit.py.executor": "Run",
     "Python tests.Python tests in test_count_vowels_tdd.py.executor": "Run",
     "Python tests.Python tests in test_count_vowels_tdd_1_3b.py.executor": "Run",
@@ -147,6 +135,7 @@
     "Python.6_V2_Todo_list.executor": "Run",
     "Python.6_V2_V3_Todo_list.executor": "Run",
     "Python.MiniCal.executor": "Run",
+    "Python.U1_1ato1f_equivalence.executor": "Run",
     "Python.U1_4_Max.executor": "Run",
     "Python.U1_4_max.executor": "Run",
     "Python.U1_name.executor": "Run",
@@ -169,10 +158,12 @@
     "Python.V2U4_Temperature.executor": "Run",
     "Python.V2U5_MiniCal copy.com.executor": "Run",
     "Python.V2U5_MiniCalculator.executor": "Run",
+    "Python.balance_list.executor": "Run",
     "Python.count_vowels_tdd.executor": "Run",
     "Python.count_vowels_tdd_3b.executor": "Run",
     "Python.extra.executor": "Run",
     "Python.input_string.executor": "Run",
+    "Python.list_balance.executor": "Run",
     "Python.main.executor": "Run",
     "Python.my_string_module.executor": "Run",
     "Python.sample.executor": "Run",
@@ -277,14 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768577505129</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1768577505129</updated>
     </task>
     <task id="LOCAL-00025" summary="Comment.">
       <option name="closed" value="true" />
@@ -670,7 +653,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770589685684</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="added">
+      <option name="closed" value="true" />
+      <created>1771105418449</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1771105418449</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -687,15 +678,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comment" />
     <MESSAGE value="Comment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment." />
+    <MESSAGE value="added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Veckouppgift 5/U1_1a_to_1f_equivalence.py</url>
+          <url>file://$PROJECT_DIR$/Veckouppgift 5/U1_1ato1f_equivalence.py</url>
           <line>18</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Veckouppgift 5/tests/test_balance_list.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Veckouppgift 5/tests/test_balance_list.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
