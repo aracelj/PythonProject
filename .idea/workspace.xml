@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23bf9299-7f89-4f84-9423-07075bef53cd" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_5_max_2nd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_balance_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_max_2nd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 6/U1_1_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Veckouppgift 6/U1_2a_review.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U1_2_empty_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_2_sum_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U1_3b_count_vowels_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_3b_count_vowels_tdd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U1_4_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U1_4_max.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_1a_celsius_fahrenheit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_1a_celsius_fahrenheit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_2ato2c_count_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_2ato2c_count_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_3ato3c_find_median.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_3ato3c_find_median.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/U2_4ato4c_sorted_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/U2_4ato4c_sorted_ascending.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/balance_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/balance_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/list_balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/multiplication_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/multiply_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_count_vowels_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_count_vowels_tdd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_list_balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_multiplication_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_multiply_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_sorted_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_sorted_ascending.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/tests/test_user_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/tests/test_user_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veckouppgift 5/user_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Veckouppgift 5/user_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +140,9 @@
     "Python.6_V2_Todo_list.executor": "Run",
     "Python.6_V2_V3_Todo_list.executor": "Run",
     "Python.MiniCal.executor": "Run",
+    "Python.U1_1_review.executor": "Run",
     "Python.U1_1ato1f_equivalence.executor": "Run",
+    "Python.U1_2a_review.executor": "Run",
     "Python.U1_4_Max.executor": "Run",
     "Python.U1_4_max.executor": "Run",
     "Python.U1_5_max_2nd.executor": "Run",
@@ -295,22 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768231210705</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768579552403</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1768579552403</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Comment.">
-      <option name="closed" value="true" />
-      <created>1768579597372</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1768579597372</updated>
     </task>
     <task id="LOCAL-00030" summary="Comment.">
       <option name="closed" value="true" />
@@ -688,7 +657,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771175719436</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="added">
+      <option name="closed" value="true" />
+      <created>1771188870073</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1771188870073</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added">
+      <option name="closed" value="true" />
+      <created>1771188880110</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1771188880110</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
