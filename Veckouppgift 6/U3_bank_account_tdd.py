@@ -2,7 +2,7 @@
 
 class Bank_Account:
     account_no = 1
-    def __init__(self, name, balance=0):                                            #objects
+    def __init__(self, name, balance):       #objects
         self.name = name
         self.account_id = Bank_Account.account_no
         Bank_Account.account_no += 1                                                #bank account id assigning
@@ -10,15 +10,15 @@ class Bank_Account:
         self.transactions = []
         self.transactions.append(f"Account opening balance: {self.balance} SEK")    #display opening balance
 
-    def deposit(self, amount):
+    def deposit(self, amount):                                                      #checks amount deposit
         if amount > 0:
             self.balance += amount
 
-        result = self.balance
+        deposit = self.balance
         self.transactions.append(f"Deposited: {amount} SEK  New Balance: {self.balance} SEK")
-        return result
+        return deposit
 
-    def withdraw(self, amount):                                                     #checks if balance is sufficient vs. amount withdrawn
+    def withdraw(self, amount):                                                     #checks amount withdrawn
         if amount > self.balance:
             print("Not enough money to withdraw!")
             amount = 0
@@ -28,10 +28,10 @@ class Bank_Account:
         else:
             self.balance -= amount
         self.transactions.append(f"Withdrawn: {amount} SEK  New Balance: {self.balance} SEK")
-        result = self.balance
-        return result
+        withdraw = self.balance
+        return withdraw
 
-    def apply_interest(self, interest):                                             #computes for the interest rate
+    def apply_interest(self, interest):                                             #computes the interest rate
         interest_total = self.balance * interest
         self.balance += interest_total
         self.transactions.append(f"Interest: {interest_total} New Balance: {self.balance} SEK")
@@ -48,7 +48,7 @@ class Bank_Account:
         return result
 
 
-    def print_info(self):                                                           #prints the bank details
+    def print_info(self):                                                           #prints bank account details
         if self.name is not None:
             print(f"Bank Account ID: {self.account_id}")
             print(f"Bank Account Name: {self.name}")
@@ -58,30 +58,3 @@ class Bank_Account:
                 print(" *", t)
 
         print("========================================")
-
-
-act1 = Bank_Account("Anna Smith", 2000)
-act2 = Bank_Account("John Doe", 1000)
-
-act1.deposit(500)
-act1.withdraw(100)
-act1.apply_interest(0.02)
-act1.pay_bill(500)
-
-accounts = [act1, act2]
-for account in accounts:
-    account.print_info()
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
