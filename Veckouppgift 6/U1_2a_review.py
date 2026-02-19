@@ -33,11 +33,11 @@ class Dog(Animal):
        print("Voff!")                                #not indented earlier, error
 
 class Cat(Animal):
-    def make_noise(shelf):
+    def make_noise(shelf):                           #still works with shelf instead of self
        print("Mjau!")
 
 class Rooster(Animal):
-    def make_noise(shelf):
+    def make_noise(shelf):                           #still works with shelf instead of self
        print("Kuckeliku!")
 
 def sound_off(animals):                #corrected to pass multiple animals
